@@ -9,14 +9,14 @@ main {
 
 }
 #div_curriculo {
-    width: 80%;
+    width: 40%;
     height: 40px;
     margin:auto;
-    text-align: center;
     background-color: blac;
 }
 
 #div_curriculo h1 {
+    text-align: center;
     margin-top: 0px;
     padding: 40px;
 }
@@ -80,4 +80,17 @@ nav a {
     opacity: 1;
     margin-top: 0;
     transition-delay: .2s;
+}
+
+#div_curriculo h2 {
+    text-align: center;
+}
+
+.span_principal {
+    font-weight: bold;
+    
+}
+
+#dados_principais table tr {
+    padding: 20px;
 }
