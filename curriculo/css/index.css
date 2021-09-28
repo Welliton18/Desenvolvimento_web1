@@ -1,7 +1,7 @@
 main {
     background-color: whitesmoke;
     width: 100%;
-    height: 1000px;
+    height: 100%;
 }
 
 #lista_cabecalho {
@@ -86,11 +86,18 @@ nav a {
     text-align: center;
 }
 
-.span_principal {
-    font-weight: bold;
-    
+#dados_principais table {
+    width: 100%;
 }
 
-#dados_principais table tr {
-    padding: 20px;
+.span_principal {
+    font-weight: bold;
+    width: 30%;
+    text-align: right;
 }
+
+.span_secundario {
+    width: 70%;
+    text-align: left;
+}
+
